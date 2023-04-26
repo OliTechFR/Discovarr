@@ -11,6 +11,20 @@ You will notice some items on this list have a :star2: next to them. Items with 
 
 If you have any idea of changes to make this more readable or to add new apps, don't hesitate to contact me on [olitechfr@gmail.com](mailto:olitechfr@gmail.com)
 
+# Table of content
+
+- [TV Series \& Movies](#tv-series--movies)
+- [Request system](#request-system)
+- [Musics](#musics)
+- [Media System](#media-system)
+- [Ebooks \& Comic Books](#ebooks--comic-books)
+- [Admin Panel](#admin-panel)
+- [Tracker Proxies](#tracker-proxies)
+- [Torrent client](#torrent-client)
+- [Bot](#bot)
+- [Other](#other)
+
+
 # *ARR Services & more
 
 ## TV Series & Movies
@@ -31,13 +45,15 @@ If you have any idea of changes to make this more readable or to add new apps, d
 | Bobarr             | Radarr+Sonarr+Jackett+VPN                                                                                                                            | [iam4x/bobarr](https://github.com/iam4x/bobarr)                                                                       |
 | Quasarr            | Fork of Bobarr, written in PHP.                                                                                                                      | [welcoMatic/quasarr](https://github.com/welcoMattic/quasarr)                                                          |
 | Whisparr           | Alternative to Bonarr                                                                                                                                | [Whisparr.com](https://whisparr.com)                                                                                  |[Discord](https://whisparr.com/discord) and [Reddit](https://www.reddit.com/r/whisparr)
+| :star2: Recyclarr  | Automatically sync TRaSH guides to your Sonarr and Radarr instances                                                                                  | [Recyclarr.dev](https://recyclarr.dev/wiki/)                                                                          |                    
 | :star2: Excludarr  | Manages you library in Sonarr and Radarr to only consist out of movies and series that are not present on any of the configured streaming providers. | [haijeploeg/excludarr](https://github.com/haijeploeg/excludarr)                                                       |
 | Elsewherr          | See disclaimer on page. See if your movies from Radarr are available on a streaming service, and add a tag against the movie if it is.               | [Adman1020/Elsewherr](https://github.com/Adman1020/Elsewherr)                                                         |
+| Pulsarr            | Browser extension for adding movies to Radarr or Series' to Sonarr while browsing IMDB or TVDB.                                                      | [Website](https://github.com/roboticsound/Pulsarr)                                                                    |                    
 | Radarr AutoDelete  | Simple script, which deletes movies with a specific tag after a certain amount of days                                                               | [JCSynthTux/radarr_autodelete](https://github.com/JCSynthTux/radarr_autodelete)                                       |
 | Radarr-Striptracks | adds a script to automatically strip out unwanted audio and subtitle streams, keeping only the desired languages.                                    | [linuxserver/docker-mods/tree/radarr-striptracks](https://github.com/linuxserver/docker-mods/tree/radarr-striptracks) |
 | TrailerDownloader  | Downloads all missing trailers for movies in your Plex library.                                                                                      | [taylorbobaylor/TrailerDownloader](https://github.com/taylorbobaylor/TrailerDownloader)                               |
-
-
+| Wantarr            | CLI tool for Radarr/Sonarr                                                                                                                           | [l3uddz/wantarr](https://github.com/l3uddz/wantarr)                                                                   |                    
+| Movearr            | Simple CLI tool to perform Sonnar/Radarr moves based on specific criteria.                                                                           | [l3uddz/movearr](https://github.com/l3uddz/movearr)                                                                   |                    
 
 ### Request system
 
@@ -137,7 +153,7 @@ Recommandations are :
 | Requestrr        | chatbot used to simplify using services like Sonarr/Radarr/Ombi via chat                                        | [Darkalfx/requestrr](https://github.com/darkalfx/requestrr)                       |                    |
 
 
-## Miscellaneous
+## Other
 
 | **Service**             | **Usage**                                                                                                                                                                            | **Website**                                                                               | **Discord/Reddit** |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- | ------------------ |
@@ -146,16 +162,11 @@ Recommandations are :
 | Listrr                  | Automates lists on trakt.tv based on your filters.                                                                                                                                   | [TheUltimateC0der/Listrr](https://github.com/TheUltimateC0der/Listrr)                     |                    |
 | MDBList                 | Listrr.pro alternative with scrapped movie ratings from imdb, tmdb, trakt, letterboxd, rottentomatoes and metacritics.                                                               | [MDBList.com](https://mdblist.com)                                                        |                    |
 | Logarr                  | A log consolidation tool written in PHP                                                                                                                                              | [Monitorr/logarr](https://github.com/Monitorr/logarr)                                     |                    |
-| Movearr                 | Simple CLI tool to perform Sonnar/Radarr moves based on specific criteria.                                                                                                           | [l3uddz/movearr](https://github.com/l3uddz/movearr)                                       |                    |
 | Posterr                 | Media display for Plex, Sonarr, and Radarr                                                                                                                                           | [petersem/posterr](https://github.com/petersem/poster)                                    |                    |
 | Syncarr                 | Sync two Radarr/Sonarr/Lidarr servers via API                                                                                                                                        | [syncarr/syncarr](https://github.com/syncarr/syncarr)                                     |                    |
-| Recyclarr               | Automatically sync TRaSH guides to your Sonarr and Radarr instances                                                                                                                  | [Recyclarr.dev](https://recyclarr.dev/wiki/)                                              |                    |
-| Traktarr                | Add new media based on Trakt lists                                                                                                                                                   | [l3uddz/traktarr](https://github.com/l3uddz/traktarr)                                     |                    |
 | Unpackerr               | Extracts archives from watch folders for import into other ARR apps                                                                                                                  | [davidnewhall/unpackerr](https://github.com/davidnewhall/unpackerr)                       |                    |
 | Gaps                    | Searches through your Plex Server for all movies, then queries for known movies in the same collection.                                                                              | [JasonHHouse](https://github.com/JasonHHouse/gaps)                                        |                    |
 | Sickbeard MP4 Automator | Automatically converts media files downloaded by various programs to a standardized format, and tags them with the appropriate metadata from TMDB if the container supports tagging. | [mdhiggins/sickbeard_mp4_automator](https://github.com/mdhiggins/sickbeard_mp4_automator) |                    |
 | theme.park              | Themes for all the *arrs                                                                                                                                                             | [gilbn/theme.park](https://github.com/gilbN/theme.park)                                   |                    |
-| Pulsarr                 | Browser extension for adding movies to Radarr or Series' to Sonarr while browsing IMDB or TVDB.                                                                                      | [Website](https://github.com/roboticsound/Pulsarr)                                        |                    |
-| Wantarr                 | CLI tool for Radarr/Sonarr                                                                                                                                                           | [l3uddz/wantarr](https://github.com/l3uddz/wantarr)                                       |                    |
 | Flemarr                 | Python script that parses a configuration written in YAML and can apply it to any of the -arr apps using their API.                                                                  | [Flemarr/Flemarr](https://github.com/Flemmarr/Flemmarr)                                   |                    |
 | Buildarr                | Solution to automating deployment and configuration of your *Arr stack                                                                                                               | [buildarr/buildarr](https://github.com/buildarr/buildarr)                                 |                    |
