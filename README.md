@@ -29,12 +29,13 @@ If you have any idea of changes to make this more readable or to add new apps, d
 
 ## TV Series & Movies
 
-| **Service**                   | **Usage**                            | **Website**                                                     | **Discord/Reddit**                      |
-| ----------------------------- | ------------------------------------ | --------------------------------------------------------------- | --------------------------------------- |
-| :star2: Sonarr                | Automates & manages **TV series**    | [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr)               | [/r/Sonarr](http://reddit.com/r/sonarr) |
-| :star2: Radarr                | Automates & manages **movies**       | [Radarr/Radarr](https://github.com/Radarr/Radarr)               | [/r/Radarr](http://reddit.com/r/Radarr) |
-| Bonarr<br>_(yes, seriously!)_ | Automates & manages **adult movies** | [bonarr/Bonarr](https://github.com/bonarr/Bonarr)               |                                         |
-| :star2: Bazarr                | Automates & manages **subtitles**    | [morpheus65535/bazarr](https://github.com/morpheus65535/bazarr) |                                         |
+| **Service**    | **Usage**                            | **Website**                                                     | **Discord/Reddit**                                                                      |
+| -------------- | ------------------------------------ | --------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| :star2: Sonarr | Automates & manages **TV series**    | [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr)               | [/r/Sonarr](http://reddit.com/r/sonarr)                                                 |
+| :star2: Radarr | Automates & manages **movies**       | [Radarr/Radarr](https://github.com/Radarr/Radarr)               | [/r/Radarr](http://reddit.com/r/Radarr)                                                 |
+| :star2: Bazarr | Automates & manages **subtitles**    | [morpheus65535/bazarr](https://github.com/morpheus65535/bazarr) |                                                                                         |
+| Whisparr       | Automates & manages **adult movies** | [Whisparr.com](https://whisparr.com)                            | [Discord](https://whisparr.com/discord) and [Reddit](https://www.reddit.com/r/whisparr) |
+
 
 ### Alternative and miscellaneous
 
@@ -43,17 +44,13 @@ If you have any idea of changes to make this more readable or to add new apps, d
 | Sonarr Extended    | Sonarr with additional features                                                                                                                      | [RandomNinjaAtk/docker-sonarr-extended](https://github.com/RandomNinjaAtk/docker-sonarr-extended)                     |
 | Radarr Extended    | Radarr with additional features                                                                                                                      | [RandomNinjaAtk/docker-radarr-extended](https://github.com/RandomNinjaAtk/docker-radarr-extended)                     |
 | Bobarr             | Radarr+Sonarr+Jackett+VPN                                                                                                                            | [iam4x/bobarr](https://github.com/iam4x/bobarr)                                                                       |
-| Quasarr            | Fork of Bobarr, written in PHP.                                                                                                                      | [welcoMatic/quasarr](https://github.com/welcoMattic/quasarr)                                                          |
-| Whisparr           | Alternative to Bonarr                                                                                                                                | [Whisparr.com](https://whisparr.com)                                                                                  |[Discord](https://whisparr.com/discord) and [Reddit](https://www.reddit.com/r/whisparr)
-| :star2: Recyclarr  | Automatically sync TRaSH guides to your Sonarr and Radarr instances                                                                                  | [Recyclarr.dev](https://recyclarr.dev/wiki/)                                                                          |                    
+| :star2: Recyclarr  | Automatically sync TRaSH guides to your Sonarr and Radarr instances                                                                                  | [Recyclarr.dev](https://recyclarr.dev/wiki/)                                                                          |
 | :star2: Excludarr  | Manages you library in Sonarr and Radarr to only consist out of movies and series that are not present on any of the configured streaming providers. | [haijeploeg/excludarr](https://github.com/haijeploeg/excludarr)                                                       |
 | Elsewherr          | See disclaimer on page. See if your movies from Radarr are available on a streaming service, and add a tag against the movie if it is.               | [Adman1020/Elsewherr](https://github.com/Adman1020/Elsewherr)                                                         |
-| Pulsarr            | Browser extension for adding movies to Radarr or Series' to Sonarr while browsing IMDB or TVDB.                                                      | [Website](https://github.com/roboticsound/Pulsarr)                                                                    |                    
+| Pulsarr            | Browser extension for adding movies to Radarr or Series' to Sonarr while browsing IMDB or TVDB.                                                      | [Website](https://github.com/roboticsound/Pulsarr)                                                                    |
 | Radarr AutoDelete  | Simple script, which deletes movies with a specific tag after a certain amount of days                                                               | [JCSynthTux/radarr_autodelete](https://github.com/JCSynthTux/radarr_autodelete)                                       |
 | Radarr-Striptracks | adds a script to automatically strip out unwanted audio and subtitle streams, keeping only the desired languages.                                    | [linuxserver/docker-mods/tree/radarr-striptracks](https://github.com/linuxserver/docker-mods/tree/radarr-striptracks) |
 | TrailerDownloader  | Downloads all missing trailers for movies in your Plex library.                                                                                      | [taylorbobaylor/TrailerDownloader](https://github.com/taylorbobaylor/TrailerDownloader)                               |
-| Wantarr            | CLI tool for Radarr/Sonarr                                                                                                                           | [l3uddz/wantarr](https://github.com/l3uddz/wantarr)                                                                   |                    
-| Movearr            | Simple CLI tool to perform Sonnar/Radarr moves based on specific criteria.                                                                           | [l3uddz/movearr](https://github.com/l3uddz/movearr)                                                                   |                    
 
 ### Request system
 
@@ -117,7 +114,6 @@ If you have any idea of changes to make this more readable or to add new apps, d
 | ---------------- | -------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------- |
 | :star2: Heimdall | A dashboard to organize and view the status of all your apps.  | [linuxserver/Heimdall](https://github.com/linuxserver/Heimdall) | [Discord](https://discord.com/invite/CCjHKn4) |
 | Organizr         | HTPC/Homelab Services Organizer                                | [/causefx/Organizr](https://github.com/causefx/Organizr)        | [/r/Organizr](http://reddit.com/r/organizr)   |
-| Monitorr         | A webfront to live display the status of any webapp or service | [Monitorr/Monitorr](https://github.com/Monitorr/Monitorr)       |                                               |
 
 
 ## Tracker Proxies
@@ -145,11 +141,10 @@ Recommandations are :
 | **Service**      | **Usage**                                                                                                       | **Website**                                                                       | **Discord/Reddit** |
 | ---------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------ |
 | Addarr           | Telegram bot for Sonarr/Radarr                                                                                  | [Waterboy1602/Addarr](https://github.com/Waterboy1602/Addarr)                     |                    |
-| Comandarr        | Bot that interacts with *arr apps with integrations                                                             | [Commandarr/Commandarr](https://github.com/Commandarr/Commandarr)                 |                    |
 | Doplarr          | Uses modern Discord slash commands and components, which provides a clean, performant UI on desktop and mobile. | [kiranshila/Doplarr](https://github.com/kiranshila/Doplarr)                       |                    |
 | Searcharr        | Sonarr & Radarr Telegram Bot                                                                                    | [toddrobb99/searcharr](https://github.com/toddrob99/searcharr)                    |                    |
 | Jackett2Telegram | A self-hosted Telegram Python Bot that dumps posts from Jackett RSS feeds to a Telegram chat.                   | [danimart1991/jackett2telegram](https://github.com/danimart1991/jackett2telegram) |                    |
-| Invitarr         | Chatbot that invites discord users to plex                                                                      | [Website](https://github.com/Sleepingpirates/Invitarr)                            |                    |
+| Invitarr         | Chatbot that invites discord users to plex                                                                      | [Sleepingpirates/Invitarr](https://github.com/Sleepingpirates/Invitarr)                            |                    |
 | Requestrr        | chatbot used to simplify using services like Sonarr/Radarr/Ombi via chat                                        | [Darkalfx/requestrr](https://github.com/darkalfx/requestrr)                       |                    |
 
 
@@ -161,7 +156,6 @@ Recommandations are :
 | Exportarr               | AIO Prometheus Exporter for Sonarr, Radarr or Lidarr                                                                                                                                 | [onedr0op/exportarr](https://github.com/onedr0p/exportarr)                                |                    |
 | Listrr                  | Automates lists on trakt.tv based on your filters.                                                                                                                                   | [TheUltimateC0der/Listrr](https://github.com/TheUltimateC0der/Listrr)                     |                    |
 | MDBList                 | Listrr.pro alternative with scrapped movie ratings from imdb, tmdb, trakt, letterboxd, rottentomatoes and metacritics.                                                               | [MDBList.com](https://mdblist.com)                                                        |                    |
-| Logarr                  | A log consolidation tool written in PHP                                                                                                                                              | [Monitorr/logarr](https://github.com/Monitorr/logarr)                                     |                    |
 | Posterr                 | Media display for Plex, Sonarr, and Radarr                                                                                                                                           | [petersem/posterr](https://github.com/petersem/poster)                                    |                    |
 | Syncarr                 | Sync two Radarr/Sonarr/Lidarr servers via API                                                                                                                                        | [syncarr/syncarr](https://github.com/syncarr/syncarr)                                     |                    |
 | Unpackerr               | Extracts archives from watch folders for import into other ARR apps                                                                                                                  | [davidnewhall/unpackerr](https://github.com/davidnewhall/unpackerr)                       |                    |
