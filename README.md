@@ -14,12 +14,12 @@ If you have any idea of changes to make this more readable or to add new apps, d
 
 # Table of content
 
-- [🎞️ TV Series & Movies](#tv-series--movies)
+- [🎞️ TV Series & Movies](#tv-series-movies)
 - [📨 Request system](#request-system)
 - [🎧 Musics](#musics)
 - [📺 Media System](#media-system)
-- [📚 Ebooks & Comic Books](#ebooks--comic-books)
-- [🖥️ Dashboard/Panel](#dashboardpanel)
+- [📚 Ebooks & Comic Books](#ebooks-comic-books)
+- [🖥️ Dashboard/Panel](#dashboard-panel)
 - [🗃️ Tracker Proxies](#tracker-proxies)
 - [📥 Torrent client](#torrent-client)
 - [📥 Usenet client](#usenet-client)
@@ -28,7 +28,7 @@ If you have any idea of changes to make this more readable or to add new apps, d
 
 # *ARR Services & more
 
-## 🎞️ TV Series & Movies
+## 🎞️ TV Series & Movies <a name="tv-series-movies"></a>
 
 | **Service**    | **Usage**                            | **Website**                              | **Discord/Reddit**                                                                      |
 | -------------- | ------------------------------------ | ---------------------------------------- | --------------------------------------------------------------------------------------- |
@@ -52,7 +52,7 @@ If you have any idea of changes to make this more readable or to add new apps, d
 | Radarr-Striptracks | adds a script to automatically strip out unwanted audio and subtitle streams, keeping only the desired languages.                                    | [linuxserver/docker-mods/tree/radarr-striptracks](https://github.com/linuxserver/docker-mods/tree/radarr-striptracks) |
 | TrailerDownloader  | Downloads all missing trailers for movies in your Plex library.                                                                                      | [taylorbobaylor/TrailerDownloader](https://github.com/taylorbobaylor/TrailerDownloader)                               |
 
-## 📨 Request system
+## 📨 Request system <a name="request-system"></a>
 
 | **Service**       | **Usage**                                                                                     | **Website**                                                         | **Discord/Reddit**                       |
 | ----------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------- |
@@ -62,7 +62,7 @@ If you have any idea of changes to make this more readable or to add new apps, d
 | Ombi              | Manages media requests                                                                        | [tidusjar/Ombi](https://github.com/tidusjar/Ombi)                   | [/r/Ombi](http://www.reddit.com/r/ombi)  |
 | Jellyseerr        | Fork of overseerr for jellyfin support                                                        | [Fallenbagel/jellyseerr](https://github.com/Fallenbagel/jellyseerr) |                                          |
 
-## 🎧 Musics
+## 🎧 Musics <a name="musics"></a>
 
 | **Service**     | **Usage**                                                          | **Website**                                                                                       | **Discord/Reddit**                      |
 | --------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- | --------------------------------------- |
@@ -70,7 +70,7 @@ If you have any idea of changes to make this more readable or to add new apps, d
 | Lidarr Extended | Lidarr with additional features                                    | [RandomNinjaAtk/docker-lidarr-extended](https://github.com/RandomNinjaAtk/docker-lidarr-extended) |                                         |
 | Headphones      | Automated music downloader for NZB and Torrent, written in Python. | [rembo10/headphones](https://github.com/rembo10/headphones)                                       |                                         |
 
-## 📺 Media System
+## 📺 Media System <a name="media-system"></a>
 
 | **Service**               | **Usage**                  | **Website**                          | **Discord/Reddit**                              |
 | ------------------------- | -------------------------- | ------------------------------------ | ----------------------------------------------- |
@@ -89,7 +89,7 @@ If you have any idea of changes to make this more readable or to add new apps, d
 | Gaps                      | Search through your Plex Server or local folders for all movies, then queries for known movies in the same collection. | [JasonHHouse/gaps](https://github.com/JasonHHouse/gaps)             |                                          |
 | Plex-scripts              | Collection of scripts                                                                                                  | [Casvt/Plex-scripts](https://github.com/Casvt/Plex-scripts)         |                                          |
 
-## 📚 Ebooks & Comic Books
+## 📚 Ebooks & Comic Books <a name="ebooks-comic-books"></a>
 
 | **Service**      | **Usage**                           | **Website**                                                                                         | **Discord/Reddit**                                          |
 | ---------------- | ----------------------------------- | --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
@@ -99,7 +99,7 @@ If you have any idea of changes to make this more readable or to add new apps, d
 | Readarr Extended | Readarr with additional features    | [RandomNinjaAtk/docker-readarr-extended](https://github.com/RandomNinjaAtk/docker-readarr-extended) |                                                             |
 | LazyLibrarian    | Alternative to Readarr              | [Website](https://lazylibrarian.gitlab.io)                                                          | [/r/LazyLibrarian](https://www.reddit.com/r/LazyLibrarian/) |
 
-### 🖥️ Dashboard/Panel
+### 🖥️ Dashboard/Panel <a name="dashboard-panel"></a>
 
 | **Service**      | **Usage**                                                                                                           | **Website**                                                     | **Discord/Reddit**                            |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------- |
@@ -112,7 +112,7 @@ If you have any idea of changes to make this more readable or to add new apps, d
 | Dashy            | Dashy helps you organize your self-hosted services by making them accessible from a single place                    | [Dashy.to](https://dashy.to)                                    |                                               |
 | Homer            | A dead simple static HOMepage for your servER to keep your services on hand, from a simple yaml configuration file. | [bastienwirtz/homer](https://github.com/bastienwirtz/homer)     |                                               |
 
-## 🗃️ Tracker Proxies
+## 🗃️ Tracker Proxies <a name="tracker-proxies"></a>
 
 | **Service**      | **Usage**                                       | **Website**                                                   | **Discord/Reddit**                          |
 | ---------------- | ----------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------- |
@@ -120,7 +120,7 @@ If you have any idea of changes to make this more readable or to add new apps, d
 | Jackett          | API Support for your favorite torrent trackers. | [Jackett/Jackett](https://github.com/Jackett/Jackett)         | [/r/Jackett](http://reddit.com/r/jackett)   |
 | Cardigann        | Alternative to Jackett                          | [cardigann/cardigann](https://github.com/cardigann/cardigann) |                                             |
 
-### 📥 Torrent client
+### 📥 Torrent client <a name="tracker-client"></a>
 
 Here is the compatibility of most of torrent clients with *ARR Apps :
 
@@ -132,14 +132,14 @@ Here is the compatibility of most of torrent clients with *ARR Apps :
 | :star2: Transmission | A lightweight torrent downloading client.                     | [Transmissionbt.com](https://transmissionbt.com)     |                |
 | Deluge               | Lightweight, Free Software, cross-platform BitTorrent client. | [Deluge-Torrent.org](https://www.deluge-torrent.org) |                |
 
-### 📥 Usenet client
+### 📥 Usenet client <a name="usenet-client"></a>
 
 | Service | Usage                           | Website                        | Discord/Reddit                           |
 | ------- | ------------------------------- | ------------------------------ | ---------------------------------------- |
 | SABnzbd | Free and easy binary newsreader | [Website](https://sabnzbd.org) | [Discord](https://discord.gg/KQzDe7fvNU) |
 | NZBGet  | Efficient Usenet downloader.    | [Website](https://nzbget.net)  |                                          |
 
-## 🤖 Bot
+## 🤖 Bot <a name="bot"></a>
 
 | **Service**      | **Usage**                                                                                                       | **Website**                                                                       | **Discord/Reddit** |
 | ---------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------ |
@@ -150,7 +150,7 @@ Here is the compatibility of most of torrent clients with *ARR Apps :
 | Invitarr         | Chatbot that invites discord users to plex                                                                      | [Sleepingpirates/Invitarr](https://github.com/Sleepingpirates/Invitarr)           |                    |
 | Requestrr        | chatbot used to simplify using services like Sonarr/Radarr/Ombi via chat                                        | [Darkalfx/requestrr](https://github.com/darkalfx/requestrr)                       |                    |
 
-## 🌳 Other
+## 🌳 Other <a name="other"></a>
 
 ### Mobile apps
 
