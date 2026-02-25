@@ -119,6 +119,8 @@ If you have any idea of changes to make this more readable or to add new apps, d
 | :star2: Prowlarr | Indexer Manager that syncs with other *arrs.    | [Prowlarr/Prowlarr](https://github.com/Prowlarr/Prowlarr)     | [/r/Prowlarr](http://reddit.com/r/prowlarr) |
 | Jackett          | API Support for your favorite torrent trackers. | [Jackett/Jackett](https://github.com/Jackett/Jackett)         | [/r/Jackett](http://reddit.com/r/jackett)   |
 | Cardigann        | Alternative to Jackett                          | [cardigann/cardigann](https://github.com/cardigann/cardigann) |                                             |
+| Quasarr          | Bridges JDownloader with Radarr/Sonarr/Lidarr/LazyLibrarian (acts as Newznab indexer + SABnzbd client). | [rix1337/Quasarr](https://github.com/rix1337/Quasarr) | [Discord](https://discord.gg/eM4zA2wWQb) |
+
 
 ### 📥 Torrent client <a name="tracker-client"></a>
 
